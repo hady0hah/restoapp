@@ -9,11 +9,11 @@
   </div>
   <div class="navbar-menu-wrapper d-flex align-items-center flex-grow-1">
     <h5 class="mb-0 font-weight-medium d-none d-lg-flex">
-      Welcome to foodfun admin dashboard!
+      Welcome to RestoApp admin dashboard!
     </h5>
     <ul class="navbar-nav navbar-nav-right ml-auto">
       <li>
-        <a href="{{ route('index') }}" class="bedge-primary bg-amber-500 font-bold p-2.5 rounded text-white" target="_blank">Browse foodfun site</a>
+        <a href="{{ route('index') }}" class="bedge-primary bg-amber-500 font-bold p-2.5 rounded text-white" target="_blank">Browse RestoApp site</a>
       </li>
       <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
         <a
@@ -88,7 +88,7 @@
             >
               <i class="dropdown-item-icon icon-power text-primary"></i> {{
               __('Log Out') }}
-            </a>            
+            </a>
           </form>
 
           @else

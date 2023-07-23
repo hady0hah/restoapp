@@ -21,7 +21,7 @@ class AdminController extends Controller
     }
 
     /**
-     * Display a admin dashboard of foodfun site.
+     * Display a admin dashboard of RestoApp site.
      *
      * @return \Illuminate\Http\Response
      */

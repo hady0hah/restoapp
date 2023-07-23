@@ -1,7 +1,9 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <div class="basis-[300px] grow shrink p-5 pr-9 single-widget single-widget1">
+                <a href="/"><img class="w-36 h-auto" src="assets/images/logo/restoApp.png" alt="" /></a>
+            </div>
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />

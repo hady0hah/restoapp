@@ -2,12 +2,10 @@
 	<footer id="contact" class="footer-area bg-slate-800 text-white font-sans-lato">
 	  <div class="flex flex-wrap footer-widget justify-between p-3 py-14 max-w-[960px] mx-auto section-padding">
 	    <div class="basis-[300px] grow shrink p-5 pr-9 single-widget single-widget1">
-	      <a href="/"><img class="w-36 h-auto" src="assets/images/logo/logo2.png" alt="" /></a>
+	      <a href="/"><img class="w-36 h-auto" src="assets/images/logo/restoApp.png" alt="" /></a>
 	      <p class="mt-3 leading-normal">
-	        Which morning fourth great won't is to fly bearing
-	        man. Called unto shall seed, deep, herb set seed
-	        land divide after over first creeping. First
-	        creature set upon stars.
+              At our food haven, we believe in celebrating the beauty of simplicity.
+              Our dishes are thoughtfully curated to highlight the natural essence of each ingredient, allowing their flavors to shine through and tell their own stories.
 	      </p>
 	    </div>
 	    <div class="single-widget single-widget2 leading-loose p-5 pr-7">
@@ -15,26 +13,22 @@
 	      <div class="flex items-start">
 	        <i class="fa fa-map-marker pr-3 pl-1 pt-2.5"></i>
 	        <p>
-	          1234 Some St San Francisco, <br />
-	          CA 94102, US
-	          1.800.123.4567
+	          SOME STREET LEBANON, <br />
+	          BEIRUT,LEBANON
 	        </p>
 	      </div>
 	      <div class="flex">
 	        <i class="fa fa-phone pr-3 pl-1  pt-2.5"></i>
-	        <p>(123) 456 78 90</p>
+	        <p>01 000 000FF</p>
 	      </div>
 	      <div class="flex">
 	        <i class="fa fa-envelope-o pr-3 pl-1 pt-2.5"></i>
-	        <p>support@axiomthemes.com</p>
+	        <p>support@restoapp.com</p>
 	      </div>
 	    </div>
 	    <div class="single-widget single-widget3 leading-loose p-5 justify-self-end">
-	      <h5 class="mb-2 font-bold font-cursive-merie text-lg capitalize text-amber-400">opening hours</h5>
-	      <p>Monday ...................... Closed</p>
-	      <p>Tue-Fri .............. 10 am - 12 pm</p>
-	      <p>Sat-Sun ............... 8 am - 11 pm</p>
-	      <p>Holidays ............. 10 am - 12 pm</p>
+	      <h5 class="mb-2 font-bold font-cursive-merie text-lg capitalize text-amber-400">OPENING HOURS</h5>
+	      <p>From: 12 PM till 12 AM</p>
 	    </div>
 	  </div>
 	  <div class="footer-copyright py-3 text-white bg-slate-900">
@@ -43,9 +37,7 @@
 	        Copyright &copy;
 	        <script>
 	          document.write(new Date().getFullYear());
-	        </script>
-	        <a class="text-cyan-400" href="https://github.com/Asraf2asif" target="_blank">Asraf2asif</a> | Design inspired by
-	        <a class="text-cyan-400" href="https://colorlib.com/wp/template/foodfun/" target="_blank">Colorlib</a>
+	        </script> @ Resto App || Design inspired by Resto App
 	      </span>
 	      <ul class="social-icons flex flex-wrap my-3 mx-5 transition ease-in-out duration-300">
 	        <li class="mr-4 my-1">Follow Us:</li>

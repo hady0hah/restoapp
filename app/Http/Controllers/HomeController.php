@@ -18,14 +18,14 @@ class HomeController extends Controller
     private $navdata = [
         ["text" => "home", "href" => "#home"],
         ["text" => "about", "href" => "#about"],
-        ["text" => "menu", "href" => "#menu"],        
+        ["text" => "menu", "href" => "#menu"],
         ["text" => "testimonial", "href" => "#testimonial"],
         ["text" => "book", "href" => "#book"],
         ["text" => "contact", "href" => "#contact"],
     ];
 
     /**
-     * Display a home page of foodfun with all info.
+     * Display a home page of RestoApp with all info.
      *
      * @return \Illuminate\Http\Response
      */

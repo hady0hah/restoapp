@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Page Title -->
-<title>Foodfun - Admin</title>
+<title>RestoApp - Admin</title>
 <!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -30,4 +30,5 @@
 <!-- End layout styles -->
 
 <script src="https://kit.fontawesome.com/7d5e6558a7.js" crossorigin="anonymous"></script>
-<script src="<?php echo e(asset('js/app.js')); ?>" defer></script><?php /**PATH C:\xampp\htdocs\restoapp\resources\views/admin/partials/head.blade.php ENDPATH**/ ?>
+<script src="<?php echo e(asset('js/app.js')); ?>" defer></script>
+<?php /**PATH C:\xampp\htdocs\restoapp\resources\views/admin/partials/head.blade.php ENDPATH**/ ?>

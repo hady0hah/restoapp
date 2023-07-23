@@ -4,7 +4,7 @@
 	  <div class="mx-4 lg:flex lg:items-center">
 	    <div class="flex items-center justify-between">
 	      <div class="lg:shrink-0">
-	        <a href="{{ route('index') }}"><img src="assets/images/logo/logo.png" alt="logo" class="h-auto lg:m-0 lg:p-2 m-auto max-w-[100px] min-w-[90px] px-2 py-2" /></a>
+	        <a href="{{ route('index') }}"><img src="assets/images/logo/restoApp.png" alt="logo" class="h-auto lg:m-0 lg:p-2 m-auto max-w-[100px] min-w-[90px] px-2 py-2" /></a>
 	      </div>
 	      <div class="nav-ham p-4 lg:hidden cursor-pointer transition ease-in-out duration-75 open">
 	      	@foreach ([1, 2, 3] as $data)
@@ -22,7 +22,7 @@
 	      	@foreach ($navdata as $data)
 					     <li class="font-bold lg:px-4 lg:py-2 lg:text-left p-2.5 text-[12.5px] text-right uppercase transition ease-in-out duration-300 hover:scale-105">
 					     	<a href={{ $data['href'] }}>{{ $data['text'] }}</a>
-					     </li> 
+					     </li>
 					@endforeach
 
 					@if (Route::has('login'))
@@ -102,37 +102,37 @@
 						</x-jet-dropdown>
 					</div>
 				 @else
-					<div class="m-2 flex justify-end lg:mx-4 lg:block">
-						<x-jet-dropdown align="right" width="48">
-							<x-slot name="trigger">
-								<span class="inline-flex rounded-md">
-									<button
-										type="button"
-										class="bg-transparent border border-transparent duration-300 ease-in-out focus:outline-none font-bold font-medium hover:scale-105 inline-flex items-center lg:text-left text-[12.5px] text-gray-900 text-right transition uppercase"
-									>
-										User
-									</button>
-								</span>
-							</x-slot>
+{{--					<div class="m-2 flex justify-end lg:mx-4 lg:block">--}}
+{{--						<x-jet-dropdown align="right" width="48">--}}
+{{--							<x-slot name="trigger">--}}
+{{--								<span class="inline-flex rounded-md">--}}
+{{--									<button--}}
+{{--										type="button"--}}
+{{--										class="bg-transparent border border-transparent duration-300 ease-in-out focus:outline-none font-bold font-medium hover:scale-105 inline-flex items-center lg:text-left text-[12.5px] text-gray-900 text-right transition uppercase"--}}
+{{--									>--}}
+{{--										User--}}
+{{--									</button>--}}
+{{--								</span>--}}
+{{--							</x-slot>--}}
 
-							<x-slot name="content">
+{{--							<x-slot name="content">--}}
 
-								<x-jet-dropdown-link class="text-right p-2.5 text-sm font-bold text-slate-800 uppercase text-[12.5px] text-gray-500 text-right" href="{{ route('login') }}">
-									Login
-								</x-jet-dropdown-link>
+{{--								<x-jet-dropdown-link class="text-right p-2.5 text-sm font-bold text-slate-800 uppercase text-[12.5px] text-gray-500 text-right" href="{{ route('login') }}">--}}
+{{--									Login--}}
+{{--								</x-jet-dropdown-link>--}}
 
-								@if (Route::has('register'))
-								<x-jet-dropdown-link class="text-right p-2.5 text-sm font-bold text-slate-800 uppercase text-[12.5px] text-gray-500 text-right" href="{{ route('register') }}">
-									Register
-								</x-jet-dropdown-link>
-								@endif
-								<div class="border-t border-gray-100"></div>
-								<x-jet-dropdown-link class="text-right p-2.5 text-sm font-bold text-slate-800 uppercase text-[12.5px] text-gray-500 text-right" href="{{ route('admin.index') }}" target="_blank">
-									Dashboard
-								</x-jet-dropdown-link>
-							</x-slot>
-						</x-jet-dropdown>
-					</div>					 
+{{--								@if (Route::has('register'))--}}
+{{--								<x-jet-dropdown-link class="text-right p-2.5 text-sm font-bold text-slate-800 uppercase text-[12.5px] text-gray-500 text-right" href="{{ route('register') }}">--}}
+{{--									Register--}}
+{{--								</x-jet-dropdown-link>--}}
+{{--								@endif--}}
+{{--								<div class="border-t border-gray-100"></div>--}}
+{{--								<x-jet-dropdown-link class="text-right p-2.5 text-sm font-bold text-slate-800 uppercase text-[12.5px] text-gray-500 text-right" href="{{ route('admin.index') }}" target="_blank">--}}
+{{--									Dashboard--}}
+{{--								</x-jet-dropdown-link>--}}
+{{--							</x-slot>--}}
+{{--						</x-jet-dropdown>--}}
+{{--					</div>--}}
 				@endif @endif
 
 	      </ul>
@@ -141,4 +141,3 @@
 	</header>
 	<!-- Header Area End -->
 
-				

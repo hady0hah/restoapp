@@ -1,15 +1,15 @@
 	<!-- Footer Area Starts -->
 	<footer id="contact" class="footer-area bg-slate-800 text-white font-sans-lato">
 	  <div class="flex flex-wrap footer-widget justify-between p-3 py-14 max-w-[960px] mx-auto section-padding">
+          <a href="/"><img class="w-36 h-auto" src="assets/images/logo/restoApp.png" style="width: 100px;height: 100px" alt="" /></a>
 	    <div class="basis-[300px] grow shrink p-5 pr-9 single-widget single-widget1">
-	      <a href="/"><img class="w-36 h-auto" src="assets/images/logo/restoApp.png" alt="" /></a>
 	      <p class="mt-3 leading-normal">
               At our food haven, we believe in celebrating the beauty of simplicity.
               Our dishes are thoughtfully curated to highlight the natural essence of each ingredient, allowing their flavors to shine through and tell their own stories.
 	      </p>
 	    </div>
 	    <div class="single-widget single-widget2 leading-loose p-5 pr-7">
-	      <h5 class="mb-2 font-bold font-cursive-merie text-lg capitalize text-amber-400">contact us</h5>
+	      <h5 class="mb-2 font-bold font-cursive-merie text-lg capitalize text-amber-400">Contact Us</h5>
 	      <div class="flex items-start">
 	        <i class="fa fa-map-marker pr-3 pl-1 pt-2.5"></i>
 	        <p>

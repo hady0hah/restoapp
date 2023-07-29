@@ -16,6 +16,8 @@ class CreateFoodTable extends Migration
         Schema::create('food', function (Blueprint $table) {
             $table->id();
             $table->string('name', 200)->default("");
+            $table->string('type', 200)->default("");
+            $table->boolean('published');
             $table->string('img', 250)->default("");
             $table->decimal('price', $precision = 10, $scale = 2)->default(0);
             $table->text('desc');

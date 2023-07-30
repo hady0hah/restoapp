@@ -65,6 +65,7 @@ class FoodMenuController extends Controller
 
             $data->name = $request->productname;
             $data->price = $request->productprice;
+            $data->published = $request->published;
             $data->desc = $request->productdescription;
 
             $data->save();

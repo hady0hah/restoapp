@@ -7,15 +7,15 @@
 		<div class="col-lg-12 grid-margin stretch-card">
 			<div class="card">
 				<div class="card-body">
-					<h4 class="card-title">Food-Menu Data-Table</h4>					
+					<h4 class="card-title">Food-Menu Data-Table</h4>
 					<p class="card-description">
-						Food-Menu information table 
+						Food-Menu information table
 					</p>
 
 					@if(session()->has('msg'))
 					<p class="alert alert-info">{{ session()->get('msg') }}</p>
 					@endif
-					
+
 					<table class="table table-hover overflow-auto block">
 						<thead>
 							<tr class="bg-slate-800">
@@ -31,7 +31,7 @@
 									<img src="{{$data->img}}" alt="{{$data->name}}" class="!w-full !h-auto !rounded-none">
 								</td>
 								<td>{{$data->name}}</td>
-								<td>{{$data->price}}</td>								
+								<td>{{$data->price}}</td>
 								<td class="max-w-[190px] min-w-[190px] !leading-normal !whitespace-normal break-words">{{$data->desc}}</td>
 								<td>{{$data->created_at}}</td>
 								<td>
@@ -47,9 +47,9 @@
 						        @method('DELETE')
 										@csrf
 
-					        	<button 
-					        		type="submit" 
-					        		class="badge badge-danger cursor-pointer" 
+					        	<button
+					        		type="submit"
+					        		class="badge badge-danger cursor-pointer"
 					        		onclick="return confirmDeleteFood({{ $data->id }} , '{{ $data->name }}');"
 					        		>Delete</button>
 								  </form>

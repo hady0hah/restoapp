@@ -50,6 +50,7 @@ Route::resource('foodmenu', FoodMenuController::class)->only([
 Route::resource('specialdishes', SpecialDishController::class)->only([
     'index', 'create', 'store', 'edit', 'update', 'destroy'
 ]);
+//Route::get('specialdishes', [SpecialDishController::class, 'index'])->name('spdishes.index');
 
 /* Dolar Rate */
 

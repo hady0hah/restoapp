@@ -28,13 +28,24 @@
 									id="productprice"
 									name="productprice"
 									placeholder="Input product price up to 2 decimal places"
-									pattern="[0-9]+([\.,][0-9]+)?" 
-									step="0.01"
+									pattern="[0-9]+([\.,][0-9]+)?"
+									step="1"
 									repuired
 								/>
 							</div>
+                            <div class="form-group">
+                                <label for="published">Published?</label>
+                                <input
+                                    type="checkbox"
+                                    class="form-control"
+                                    id="published"
+                                    name="published"
+                                    value="1"
+                                />
+                            </div>
 
-							<div class="form-group">
+
+                            <div class="form-group">
 								<label>Image upload</label>
 								<div class="input-group col-xs-12">
 									<input
@@ -76,16 +87,16 @@
 		</div>
 	</div>
 	<script>
-		var imgInput = document.getElementById("productimage");		
+		var imgInput = document.getElementById("productimage");
 		imgInput.addEventListener('change', (event) => {
 			if (event.target.files[0]) {
         var reader = new FileReader();
-        
-				var imgTemp = document.getElementById("tempproductimage");	  
+
+				var imgTemp = document.getElementById("tempproductimage");
         reader.onload = function (e) {
         	imgTemp.setAttribute("src", e.target.result);
         }
-        
+
         reader.readAsDataURL(event.target.files[0]);
 
         if (imgTemp.style.display === "inline") {
@@ -95,6 +106,6 @@
 			  }
 	    }
 		});
-		
+
 	</script>
 </x-admin.index>

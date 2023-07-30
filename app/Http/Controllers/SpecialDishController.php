@@ -69,9 +69,10 @@ class SpecialDishController extends Controller
             $data->desc = $request->spdishesdesc;
 
             $data->save();
-            return redirect()->route('spdish.index')->with('msg', 'New Special-Dish entry created');
+//            return view("admin.pages.spdishes.editspdishes", compact("data", "user", "isAdmin"));
+            return redirect()->route('specialdishes.index')->with('msg', 'New Special-Dish entry created');
         }
-        return redirect()->route('spdish.index')->with('msg', 'Can\'t create Special-Dish entry');
+        return redirect()->route('specialdishes.index')->with('msg', 'Can\'t create Special-Dish entry');
     }
 
     /**

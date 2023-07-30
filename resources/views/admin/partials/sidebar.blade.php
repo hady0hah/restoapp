@@ -43,7 +43,7 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" href="{{ route('foodmenu.index')}}">
-        <span class="menu-title">Food Menu</span>        
+        <span class="menu-title">Food Menu</span>
         <i class="fa-solid fa-bowl-rice menu-icon"></i>
       </a>
     </li>
@@ -61,9 +61,15 @@
     </li>
     <li class="nav-item">
       <a class="nav-link" href="{{ route('testimonial.index')}}">
-        <span class="menu-title">Testimonials</span>
+        <span class="menu-title">Reviews</span>
         <i class="fa-solid fa-star-half-stroke menu-icon"></i>
       </a>
+    </li>
+    <li class="nav-item">
+          <a class="nav-link" href="{{route('rate.index')}}">
+              <span class="menu-title">Dolar Rate</span>
+              <i class="fa-solid fa-dollar-sign menu-icon"></i>
+          </a>
     </li>
   </ul>
 </nav>

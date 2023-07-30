@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\RateController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AdminController;
@@ -49,6 +50,17 @@ Route::resource('foodmenu', FoodMenuController::class)->only([
 Route::resource('specialdishes', SpecialDishController::class)->only([
     'index', 'create', 'store', 'edit', 'update', 'destroy'
 ]);
+
+/* Dolar Rate */
+
+//Route::resource('dolar_rate', RateController::class)->only([
+//    'index', 'create', 'store', 'edit', 'update', 'destroy'
+//]);
+
+Route::get('rate', [RateController::class, 'index'])->name('rate.index');
+Route::post('rate', [RateController::class, 'store'])->name('rate.store');
+Route::post('rate', [RateController::class, 'update'])->name('rate.update');
+
 
 /* Testimonial */
 Route::resource('testimonial', TestimonialController::class)->only([

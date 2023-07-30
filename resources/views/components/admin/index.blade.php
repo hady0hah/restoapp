@@ -14,7 +14,7 @@
         </div>
       </div>
     </div>
-    
-    @include("admin.partials.script")        
+
+    @include("admin.partials.script")
   </body>
 </html>

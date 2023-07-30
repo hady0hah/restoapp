@@ -15,7 +15,8 @@
         </div>
       </div>
     </div>
-    
-    <?php echo $__env->make("admin.partials.script", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>        
+
+    <?php echo $__env->make("admin.partials.script", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
   </body>
-</html><?php /**PATH C:\xampp\htdocs\restoapp\resources\views/components/admin/index.blade.php ENDPATH**/ ?>
+</html>
+<?php /**PATH C:\xampp\htdocs\restoapp\resources\views/components/admin/index.blade.php ENDPATH**/ ?>

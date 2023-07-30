@@ -71,7 +71,7 @@ class TestimonialController extends Controller
             $data->save();
 
             return redirect()->route('review.index')->with('msg', 'New testimonial entry created');
-        }        
+        }
         return redirect()->route('review.index')->with('msg', "Can't create testimonial entry" );
     }
 
@@ -85,7 +85,7 @@ class TestimonialController extends Controller
     {
         //
     }
-    
+
     /**
      * Show the form for editing the specified testimonial entry.
      *
@@ -118,9 +118,9 @@ class TestimonialController extends Controller
                 $imagename = time().".".$image->getClientOriginalExtension();
                 $imagepath = 'assets/images/testimonialimage';
                 $request->reviewimage->move($imagepath , $imagename);
-                $data->img = $imagepath."/".$imagename;            
+                $data->img = $imagepath."/".$imagename;
             }
-            
+
             $data->name = $request->reviewname;
             $data->bio = $request->reviewbio;
             $data->review = $request->reviewtext;

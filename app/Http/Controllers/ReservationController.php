@@ -49,7 +49,7 @@ class ReservationController extends Controller
         $data->person = $request->person;
 
         $data->save();
-        
+
         return redirect()->back()->with('msg', 'Reservation made successfully');
     }
 }

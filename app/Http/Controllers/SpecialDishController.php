@@ -70,7 +70,7 @@ class SpecialDishController extends Controller
 
             $data->save();
             return redirect()->route('spdish.index')->with('msg', 'New Special-Dish entry created');
-        }        
+        }
         return redirect()->route('spdish.index')->with('msg', 'Can\'t create Special-Dish entry');
     }
 
@@ -84,7 +84,7 @@ class SpecialDishController extends Controller
     {
         //
     }
-    
+
     /**
      * Show the form for editing the specified specialdishes entry.
      *
@@ -117,7 +117,7 @@ class SpecialDishController extends Controller
                 $imagename = time().".".$image->getClientOriginalExtension();
                 $imagepath = 'assets/images/spdishimage';
                 $request->spdishesimageedit->move($imagepath , $imagename);
-                $data->img = $imagepath."/".$imagename;            
+                $data->img = $imagepath."/".$imagename;
             }
             $data->namepart1 = $request->spdishesname1edit;
             $data->namepart2 = $request->spdishesname2edit;
@@ -126,7 +126,7 @@ class SpecialDishController extends Controller
 
             $data->save();
             return redirect()->route('specialdishes.index')->with('msg', 'Special-Dish entry edited');
-        }        
+        }
         return redirect()->route('specialdishes.index')->with('msg', 'Can\'t edit Special-Dish entry');
     }
 

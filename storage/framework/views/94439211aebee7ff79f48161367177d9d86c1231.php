@@ -13,7 +13,7 @@
     </h5>
     <ul class="navbar-nav navbar-nav-right ml-auto">
       <li>
-        <a href="<?php echo e(route('index')); ?>" class="bedge-primary bg-amber-500 font-bold p-2.5 rounded text-white" target="_blank">Browse RestoApp site</a>
+        <a href="<?php echo e(route('index')); ?>" class="bedge-primary bg-amber-500 font-bold p-2.5 rounded text-white" target="_blank">Go To Dashboard</a>
       </li>
       <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
         <a

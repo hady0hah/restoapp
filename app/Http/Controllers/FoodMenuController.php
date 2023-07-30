@@ -70,7 +70,7 @@ class FoodMenuController extends Controller
             $data->save();
 
             return redirect()->route('foodmenu.index')->with('msg', 'New Food menu entry created');
-        }        
+        }
         return redirect()->route('foodmenu.index')->with('msg', "Can't create food menu entry" );
     }
 
@@ -84,7 +84,7 @@ class FoodMenuController extends Controller
     {
         //
     }
-    
+
     /**
      * Show the form for editing the specified foodmenu entry.
      *
@@ -117,7 +117,7 @@ class FoodMenuController extends Controller
                 $imagename = time().".".$image->getClientOriginalExtension();
                 $imagepath = 'assets/images/foodimage';
                 $request->productimage->move($imagepath , $imagename);
-                $data->img = $imagepath."/".$imagename;            
+                $data->img = $imagepath."/".$imagename;
             }
             $data->name = $request->productname;
             $data->price = $request->productprice;

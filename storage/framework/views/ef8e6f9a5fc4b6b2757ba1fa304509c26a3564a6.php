@@ -11,6 +11,9 @@
                     <div class="card-body">
                         <h4 class="card-title">Dolar Rate</h4>
                         <p class="card-description">Edit your website DOLAR RATE here</p>
+                        <?php if(session()->has('msg')): ?>
+                            <p class="alert alert-info"><?php echo e(session()->get('msg')); ?></p>
+                        <?php endif; ?>
                         <form action="<?php echo e(route('rate.update')); ?>" method="post" >
                             <?php echo csrf_field(); ?>
                             <div class="form-group">

@@ -4,7 +4,7 @@
 	  <div class="mx-4 lg:flex lg:items-center">
 	    <div class="flex items-center justify-between">
 	      <div class="lg:shrink-0">
-	        <a href="{{ route('index') }}"><img src="assets/images/logo/restoApp.png" alt="logo" style="width: 50px;height: 20px"/><span>Resto App</span></a>
+	        <a href="{{ route('index') }}"><img src="assets/images/logo/liban-g.png" alt="logo" style="width: 150px;height: 50px"/></a>
 	      </div>
 	      <div class="nav-ham p-4 lg:hidden cursor-pointer transition ease-in-out duration-75 open">
 	      	@foreach ([1, 2, 3] as $data)

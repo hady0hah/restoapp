@@ -6,6 +6,9 @@
                     <div class="card-body">
                         <h4 class="card-title">Dolar Rate</h4>
                         <p class="card-description">Edit your website DOLAR RATE here</p>
+                        @if(session()->has('msg'))
+                            <p class="alert alert-info">{{ session()->get('msg') }}</p>
+                        @endif
                         <form action="{{ route('rate.update') }}" method="post" >
                             @csrf
                             <div class="form-group">

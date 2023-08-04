@@ -13,7 +13,7 @@
 <?php $component->withAttributes([]); ?>
          <?php $__env->slot('logo', null, []); ?> 
             <div class="basis-[300px] grow shrink p-5 pr-9 single-widget single-widget1">
-                <a href="/"><img class="w-36 h-auto" src="assets/images/logo/restoApp.png" alt="" /></a>
+                <a href="/"><img class="w-36 h-auto" src="assets/images/logo/liban-g.png" alt="" /></a>
             </div>
          <?php $__env->endSlot(); ?>
 

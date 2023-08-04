@@ -12,15 +12,15 @@
 		<div class="col-lg-12 grid-margin stretch-card">
 			<div class="card">
 				<div class="card-body">
-					<h4 class="card-title">Food-Menu Data-Table</h4>					
+					<h4 class="card-title">Food-Menu Data-Table</h4>
 					<p class="card-description">
-						Food-Menu information table 
+						Food-Menu information table
 					</p>
 
 					<?php if(session()->has('msg')): ?>
 					<p class="alert alert-info"><?php echo e(session()->get('msg')); ?></p>
 					<?php endif; ?>
-					
+
 					<table class="table table-hover overflow-auto block">
 						<thead>
 							<tr class="bg-slate-800">
@@ -36,7 +36,7 @@
 									<img src="<?php echo e($data->img); ?>" alt="<?php echo e($data->name); ?>" class="!w-full !h-auto !rounded-none">
 								</td>
 								<td><?php echo e($data->name); ?></td>
-								<td><?php echo e($data->price); ?></td>								
+								<td><?php echo e($data->price); ?></td>
 								<td class="max-w-[190px] min-w-[190px] !leading-normal !whitespace-normal break-words"><?php echo e($data->desc); ?></td>
 								<td><?php echo e($data->created_at); ?></td>
 								<td>
@@ -52,9 +52,9 @@
 						        <?php echo method_field('DELETE'); ?>
 										<?php echo csrf_field(); ?>
 
-					        	<button 
-					        		type="submit" 
-					        		class="badge badge-danger cursor-pointer" 
+					        	<button
+					        		type="submit"
+					        		class="badge badge-danger cursor-pointer"
 					        		onclick="return confirmDeleteFood(<?php echo e($data->id); ?> , '<?php echo e($data->name); ?>');"
 					        		>Delete</button>
 								  </form>

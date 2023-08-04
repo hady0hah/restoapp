@@ -19,7 +19,7 @@ class HomeController extends Controller
         ["text" => "home", "href" => "#home"],
         ["text" => "about", "href" => "#about"],
         ["text" => "menu", "href" => "#menu"],
-        ["text" => "testimonial", "href" => "#testimonial"],
+        ["text" => "reviews", "href" => "#testimonial"],
         ["text" => "book", "href" => "#book"],
         ["text" => "contact", "href" => "#contact"],
     ];

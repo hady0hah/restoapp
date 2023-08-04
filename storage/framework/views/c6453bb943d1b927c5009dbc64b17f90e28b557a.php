@@ -17,6 +17,7 @@
 
               <p class="mt-4 text-[14px] font-sans-lato text-slate-600 leading-relaxed"><?php echo e($data['desc']); ?></p>
               <p class="mt-4 font-bold font-cursive-merie text-2xl text-amber-400 ">$<?php echo e($data['price']); ?></p>
+                <p class="text-amber-400 group-hover:text-slate-600 p-1 text-right"><?php echo e($data['price']*$rate); ?> 000 LBP</p>
               <a href="#book">
                 <p class="mt-4 inline-block rounded-sm shadow px-3 py-3 uppercase font-sans-monts text-xs font-bold text-slate-900 transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110 hover:bg-transparent ">book a table <span><i class="fa fa-long-arrow-right"></i></span></p>
               </a>
@@ -28,4 +29,5 @@
         </div>
       <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
     </section>
-    <!-- Deshes Area End --><?php /**PATH C:\xampp\htdocs\restoapp\resources\views/home/partials/deshes.blade.php ENDPATH**/ ?>
+    <!-- Deshes Area End -->
+<?php /**PATH C:\xampp\htdocs\restoapp\resources\views/home/partials/deshes.blade.php ENDPATH**/ ?>

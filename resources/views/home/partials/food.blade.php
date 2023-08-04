@@ -17,6 +17,7 @@
                 <h5 class='p-1 leading-normal capitalize'>{{ $data['name'] }}</h5>
                 <span class="text-amber-400 group-hover:text-slate-600 p-1 text-right">${{ $data['price'] }}</span>
               </div>
+                <span class="text-amber-400 group-hover:text-slate-600 p-1 text-right">{{ $data['price']*$rate }} 000 LBP</span>
               <p class="pt-4 text-[14px] font-sans-lato text-slate-600 leading-relaxed">{{ $data['desc'] }}</p>
             </div>
           </div>

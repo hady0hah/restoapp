@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\DolarRate;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Food;
@@ -35,6 +36,7 @@ class HomeController extends Controller
         $fooddata = food::all();
         $dishesdata = specialdishes::all();
         $testimonialdata = testimonial::all();
-        return view("home.index", compact('navdata', 'fooddata', 'dishesdata', 'testimonialdata'));
+        $rate = DolarRate::where('name', 'dolar_rate')->value('rate');
+        return view("home.index", compact('navdata', 'fooddata', 'dishesdata', 'testimonialdata', 'rate'));
     }
 }

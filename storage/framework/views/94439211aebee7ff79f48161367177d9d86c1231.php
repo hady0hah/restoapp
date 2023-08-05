@@ -4,7 +4,7 @@
 >
   <div class="navbar-brand-wrapper d-flex align-items-center">
     <a href="<?php echo e(route('admin.index')); ?>">
-      <img src="assets/images/logo/liban.png" style="height: 50px;width: 200px" alt="logo" class="logo-dark w-32" />
+      <img src="assets/images/logo/liban.png" style="height: auto;width: 146px;margin-bottom: -1em;" alt="logo" class="logo-dark w-32" />
     </a>
   </div>
   <div class="navbar-menu-wrapper d-flex align-items-center flex-grow-1">

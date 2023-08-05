@@ -1,6 +1,31 @@
   <!-- Preloader Starts -->
-  <div class="preloader absolute-center-parent size-full bg-black/50 z-10">
-    <div class="absolute-center-child size-10 bg-amber-500 rounded-full m-0 animate-ping origin-top"></div>
-  </div>
-  <!-- Preloader End --> 
+  <div class="preloader">
+          <img src="assets\images\loader1.gif"   class="preloader-img">
+      </div>
+  <!-- Preloader End -->
+<style>
+/* Styles for the preloader */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.preloader-img {
+    max-width: 600px; /* Adjust the size of the preloader image as needed */
+}
+
+/* Hide the preloader when the content is loaded */
+.content.loaded .preloader {
+    display: none;
+}
+
+</style>
 <?php /**PATH C:\xampp\htdocs\restoapp\resources\views/home/partials/preloader.blade.php ENDPATH**/ ?>

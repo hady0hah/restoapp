@@ -1,7 +1,7 @@
 	<!-- Footer Area Starts -->
 	<footer id="contact" class="footer-area bg-slate-800 text-white font-sans-lato">
 	  <div class="flex flex-wrap footer-widget justify-between p-3 py-14 max-w-[960px] mx-auto section-padding">
-          <a href="/"><img class="w-36 h-auto" src="assets/images/logo/liban.png" style="width: 100px;height: 100px" alt="" /></a>
+          <a href="/"><img class="w-36 h-auto" src="assets/images/logo/liban.png" style="width: 306px;margin-left: -151px;height: auto;" alt="" /></a>
 	    <div class="basis-[300px] grow shrink p-5 pr-9 single-widget single-widget1">
 	      <p class="mt-3 leading-normal">
               At our food haven, we believe in celebrating the beauty of simplicity.
